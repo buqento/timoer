@@ -102,27 +102,6 @@ if ($result) {
           <div class="col-lg-8 col-md-10 mx-auto">
 
               <?= $row["konten"] ?>
-              
-              <div class="post-preview">
-
-                  <?php
-                  $sql = "SELECT id, judul, deskripsi, foto_file FROM artikel WHERE id <> $id ORDER BY rand() DESC LIMIT 1";
-                  $result = $con->query($sql);
-                  $row = $result->fetch_assoc();
-                  ?>
-                    <?php
-                    $id = $row['id'];
-                    $t = seo_title($row['judul']).'.html';
-                    ?>
-                    <?php 
-                    echo "<a href='../../berita/$id/$t'>";
-                    ?>
-                    <h3 class="post-subtitle">
-                    <?php echo $row['judul'];?> ...
-                    </h3>
-                    <?php echo "</a>"; ?>
-
-              </div>
 
               <div class="bottom-article">
 
