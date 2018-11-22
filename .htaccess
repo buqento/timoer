@@ -1,0 +1,10 @@
+RewriteEngine On
+
+RewriteRule ^berita/(.*)$ detail.php?id=$1 [L]
+RewriteRule ^kategori/(.*)$ kategori.php?id=$1 [L]
+
+Options All -Indexes
+
+
+
+
