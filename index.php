@@ -80,7 +80,7 @@ include("fun.php");
 
               <div class="post-preview">
 
-                <img class="img-fluid" src="http://dpm-ptsp-kabmbd.com/timoer-backend/web/images/<?= $row['foto_file'] ?>">
+                <img src="http://dpm-ptsp-kabmbd.com/timoer-backend/web/images/<?= $row['foto_file'] ?>" class="img-fluid">
 
                 <?php   
                   echo '<a href="berita/'.$id.'/'.$t.'">';
