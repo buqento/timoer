@@ -105,10 +105,7 @@ if ($result) {
 
               <div class="bottom-article">
 
-                <div class="fb-share-button" 
-                  data-href="http://timoer.info/berita/<?= $id ?>/<?= $tseo ?>" 
-                  data-layout="button_count">
-                </div>
+                <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
                 
               </div>
 
