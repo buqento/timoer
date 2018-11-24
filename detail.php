@@ -6,11 +6,16 @@ $pecah = explode("/",$url);
 $id = $pecah[0];
 $tseo = $pecah[1];
 
-$sql = "SELECT id, judul, konten, kategori_id, deskripsi, foto_file, created_at FROM artikel WHERE id=$id";
+$sql = "SELECT id, judul, konten, kategori_id, deskripsi, foto_file, views, created_at FROM artikel WHERE id=$id";
 $result = $con->query($sql);
 
 if ($result) {
   $row = $result->fetch_assoc();
+
+  //inc views
+  $views = $row['views'];
+  mysqli_query($con, "UPDATE artikel SET views = $views + 1 WHERE id=$id ");
+
 }
 ?>
 
@@ -101,6 +106,7 @@ if ($result) {
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
 
+              <div class="badge badge-info text-center"><?= $row["views"] ?> viewer</div>
               <?= $row["konten"] ?>
 
               <div class="bottom-article">
