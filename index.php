@@ -71,7 +71,7 @@ include("fun.php");
         <div class="col-lg-8 col-md-10 mx-auto">
 
             <?php
-            $sql = "SELECT id, judul, deskripsi, foto_file, created_at FROM artikel ORDER BY created_at DESC LIMIT 5";
+            $sql = "SELECT id, judul, deskripsi, foto_file, views, created_at FROM artikel ORDER BY created_at DESC LIMIT 5";
             $result = $con->query($sql);
             while ($row = $result->fetch_assoc()) {
                 $id = $row['id'];
@@ -95,7 +95,7 @@ include("fun.php");
 
                 <p class="post-meta">Posted by
                   <a href="#">Admin</a>
-                  on <?php echo tglIndo($row['created_at']); ?></p>
+                  on <?php echo tglIndo($row['created_at']); ?> &#183; <?php echo $row['views']; ?> views</p>
 
               </div>
               <hr>

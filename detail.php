@@ -93,7 +93,7 @@ if ($result) {
               <!-- <h2 class="subheading">Problems look mighty small from 150 miles up</h2> -->
               <span class="meta">Posted by
                 <a href="#">Admin</a>
-                on </i><?= tglIndo($row["created_at"]) ?> | <?= getKategori($row["kategori_id"], $con) ?></span>
+                on </i><?= tglIndo($row["created_at"]) ?> &#183; <?= getKategori($row["kategori_id"], $con) ?></span>
             </div>
           </div>
         </div>
@@ -106,7 +106,7 @@ if ($result) {
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
 
-              <div class="badge badge-info text-center"><?= $row["views"] ?> viewer</div>
+              <div class="badge badge-info text-center"><?= $row["views"] ?> views</div>
               <?= $row["konten"] ?>
 
               <div class="bottom-article">
