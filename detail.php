@@ -11,12 +11,12 @@ $result = $con->query($sql);
 
 if ($result) {
   $row = $result->fetch_assoc();
-
+}
   //inc views
   $views = $row['views'];
-  mysqli_query($con, "UPDATE artikel SET views = $views + 1 WHERE id=$id ");
+  $sql_inc = "UPDATE artikel SET views = $views + 1 WHERE id=$id";
+  $inc = $con->query($sql_inc);
 
-}
 ?>
 
 <!DOCTYPE html>
