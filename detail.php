@@ -57,7 +57,7 @@ if ($result) {
     var js, fjs = d.getElementsByTagName(s)[0];
     if (d.getElementById(id)) return;
     js = d.createElement(s); js.id = id;
-    js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=387708794632040&autoLogAppEvents=1';
+    js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=316279665647294&autoLogAppEvents=1';
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));</script>
 
@@ -107,6 +107,7 @@ if ($result) {
           <div class="col-lg-8 col-md-10 mx-auto">
 
               <div class="badge badge-info text-center"><?= $row["views"] ?> views</div>
+
               <?= $row["konten"] ?>
 
               <div class="bottom-article">
@@ -118,6 +119,10 @@ if ($result) {
               <div class="fb-comments" data-href="http://timoer.info/<?= $tseo ?>" data-numposts="10" data-width="650"></div>
 
 
+          </div>
+
+          <div class="col-lg-4 col-md-10 mx-auto">
+            <div class="fb-page" data-href="https://www.facebook.com/TIMOERinfo-373759446502412" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/TIMOERinfo-373759446502412" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/TIMOERinfo-373759446502412">TIMOER.info</a></blockquote></div>
           </div>
         </div>
       </div>
