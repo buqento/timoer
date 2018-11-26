@@ -121,9 +121,6 @@ if ($result) {
 
           </div>
 
-          <div class="col-lg-4 col-md-10 mx-auto">
-            <div class="fb-page" data-href="https://www.facebook.com/TIMOERinfo-373759446502412" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/TIMOERinfo-373759446502412" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/TIMOERinfo-373759446502412">TIMOER.info</a></blockquote></div>
-          </div>
         </div>
       </div>
     </article>
@@ -134,7 +131,12 @@ if ($result) {
     <footer>
       <div class="container">
         <div class="row">
-          <div class="col-lg-8 col-md-10 mx-auto">
+
+          <div class="col-lg-6 col-md-10 mx-auto text-right">
+            <div class="fb-page" data-href="https://www.facebook.com/timoer.info" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/timoer.info" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/timoer.info">TIMOER.info</a></blockquote></div>
+          </div>
+          <br>
+          <div class="col-lg-6 col-md-10 mx-auto">
             <ul class="list-inline text-center">
               <li class="list-inline-item">
                 <a href="#">
@@ -145,16 +147,25 @@ if ($result) {
                 </a>
               </li>
               <li class="list-inline-item">
-                <a class="nav-link" target="_BLANK" href="https://www.facebook.com/TIMOERinfo-373759446502412/">
+                <a class="nav-link" target="_BLANK" href="https://www.facebook.com/timoer.info/">
                   <span class="fa-stack fa-lg">
                     <i class="fas fa-circle fa-stack-2x"></i>
                     <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
                   </span>
                 </a>
               </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
             </ul>
             <p class="copyright text-muted">Copyright &copy; TIMOER.info 2018</p>
           </div>
+
         </div>
       </div>
     </footer>

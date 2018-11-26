@@ -29,6 +29,15 @@ include("fun.php");
 
   <body>
 
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=316279665647294&autoLogAppEvents=1';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
@@ -68,6 +77,7 @@ include("fun.php");
     <!-- Main Content -->
     <div class="container">
       <div class="row">
+
         <div class="col-lg-8 col-md-10 mx-auto">
 
             <?php
@@ -107,7 +117,15 @@ include("fun.php");
           <div class="clearfix">
             <a class="btn btn-primary float-right" href="#">Lainnya &rarr;</a>
           </div>
+
+
         </div>
+
+
+        <!-- <div class="col-lg-4 col-md-10 mx-auto"> -->
+
+        <!-- </div> -->
+
       </div>
     </div>
 
@@ -117,7 +135,14 @@ include("fun.php");
     <footer>
       <div class="container">
         <div class="row">
-          <div class="col-lg-8 col-md-10 mx-auto">
+
+          
+          <div class="col-lg-6 col-md-10 mx-auto text-right">
+            <div class="fb-page" data-href="https://www.facebook.com/timoer.info" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/timoer.info" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/timoer.info">TIMOER.info</a></blockquote></div>
+          </div>
+          <br>
+
+          <div class="col-lg-6 col-md-10 mx-auto">
             <ul class="list-inline text-center">
               <li class="list-inline-item">
                 <a href="#">
@@ -135,9 +160,18 @@ include("fun.php");
                   </span>
                 </a>
               </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
             </ul>
             <p class="copyright text-muted">Copyright &copy; TIMOER.info 2018</p>
           </div>
+
         </div>
       </div>
     </footer>
