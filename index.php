@@ -24,7 +24,12 @@ include("fun.php");
 
     <!-- Custom styles for this template -->
     <link href="css/clean-blog.min.css" rel="stylesheet">
-
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({
+              google_ad_client: "ca-pub-1434074630735871",
+              enable_page_level_ads: true
+         });
+    </script>
   </head>
 
   <body>
