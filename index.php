@@ -95,7 +95,7 @@ include("fun.php");
 
               <div class="post-preview">
 
-                <img src="http://timoer.info/timoer-backend/web/images/<?= $row['foto_file'] ?>" class="img-fluid">
+                <img src="http://timoer.info/timoer_backend/web/images/<?= $row['foto_file'] ?>" class="img-fluid">
 
                 <?php   
                   echo '<a href="berita/'.$id.'/'.$t.'">';
