@@ -27,7 +27,7 @@ if ($result) {
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta property="og:url" content="http://timoer.info/berita/<?= $id ?>/<?= $tseo ?>" />
+    <meta property="og:url" content="http://timoer.info/blog/berita/<?= $id ?>/<?= $tseo ?>" />
     <meta property="og:type" content="article" />
     <meta property="og:title" content="<?= $row['judul'] ?>" />
     <meta property="og:description" content="<?= $row['deskripsi'] ?>" />
