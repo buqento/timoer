@@ -31,7 +31,7 @@ if ($result) {
     <meta property="og:type" content="article" />
     <meta property="og:title" content="<?= $row['judul'] ?>" />
     <meta property="og:description" content="<?= $row['deskripsi'] ?>" />
-    <meta property="og:image" content="http://dpm-ptsp-kabmbd.com/timoer-backend/web/images/<?= $row['foto_file'] ?>" />
+    <meta property="og:image" content="http://timoer.info/timoer-backend/web/images/<?= $row['foto_file'] ?>" />
     <meta property="fb:app_id" content="314574428640745" />
     <meta name="author" content="bvqento">
 
