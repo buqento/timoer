@@ -1,7 +1,7 @@
 <?php
 
-// $con = mysqli_connect("localhost","timoerin_bvqento","Manggureb3!","timoerin_timoer");
-$con = mysqli_connect("localhost","root","Manggureb3!","timoerin_timoer");
+$con = mysqli_connect("localhost","timoerin_bvqento","Manggureb3!","timoerin_timoer");
+// $con = mysqli_connect("localhost","root","Manggureb3!","timoerin_timoer");
 if (mysqli_connect_errno()){echo "Failed to connect to MySQL: " . mysqli_connect_error();}
 
 function tglIndo($tgl){
