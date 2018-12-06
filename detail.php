@@ -120,11 +120,11 @@ if ($result) {
 
               <div class="bottom-article">
 
-                <div class="fb-like" data-href="http://timoer.info/berita/<?= $id ?>/<?= $tseo ?>" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+                <div class="fb-like" data-href="http://timoer.info/blog/berita/<?= $id ?>/<?= $tseo ?>" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
                 
               </div>
 
-              <div class="fb-comments" data-href="http://timoer.info/<?= $tseo ?>" data-numposts="10" data-width="650"></div>
+              <div class="fb-comments" data-href="http://timoer.info/blog/<?= $tseo ?>" data-numposts="10" data-width="650"></div>
 
 
           </div>
