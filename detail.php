@@ -6,7 +6,7 @@ $pecah = explode("/",$url);
 $id = $pecah[0];
 $tseo = $pecah[1];
 
-$sql = "SELECT id, judul, konten, kategori_id, deskripsi, foto_file, views, created_at FROM artikel WHERE id=$id";
+$sql = "SELECT id, judul, konten_pertama, konten, kategori_id, deskripsi, foto_file, views, created_at FROM artikel WHERE id=$id";
 $result = $con->query($sql);
 
 if ($result) {
