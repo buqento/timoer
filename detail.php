@@ -116,7 +116,7 @@ if ($result) {
 
               <div class="badge badge-info text-center"><?= $row["views"] ?> views</div>
 
-              <?= $row["konten"] ?>
+              <?= $row["konten_pertama"] ?>
 
               <!-- Iklan Google -->
               <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -131,6 +131,7 @@ if ($result) {
               </script>
               <!-- End iklan google -->
 
+              <?= $row["konten"] ?>
               <div class="bottom-article">
 
                 <div class="fb-like" data-href="http://timoer.info/blog/berita/<?= $id ?>/<?= $tseo ?>" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
