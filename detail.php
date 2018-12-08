@@ -118,6 +118,19 @@ if ($result) {
 
               <?= $row["konten"] ?>
 
+              <!-- Iklan Google -->
+              <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+              <ins class="adsbygoogle"
+                   style="display:block; text-align:center;"
+                   data-ad-layout="in-article"
+                   data-ad-format="fluid"
+                   data-ad-client="ca-pub-1434074630735871"
+                   data-ad-slot="1549289192"></ins>
+              <script>
+                   (adsbygoogle = window.adsbygoogle || []).push({});
+              </script>
+              <!-- End iklan google -->
+
               <div class="bottom-article">
 
                 <div class="fb-like" data-href="http://timoer.info/blog/berita/<?= $id ?>/<?= $tseo ?>" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
