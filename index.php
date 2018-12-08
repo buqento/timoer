@@ -65,7 +65,7 @@ include("fun.php");
     </nav>
 
     <!-- Page Header -->
-    <header class="masthead" style="background-image: url('img/home-bg.jpg')">
+    <header class="masthead" style="background-image: url('img/DJI_0195.JPG')">
       <div class="overlay"></div>
       <div class="container">
         <div class="row">
