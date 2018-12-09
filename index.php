@@ -111,6 +111,8 @@ include("fun.php");
 
             <?php } ?>
 
+<?php
+$gAdsense = '
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- detail artikel -->
 <ins class="adsbygoogle"
@@ -121,7 +123,9 @@ include("fun.php");
      data-full-width-responsive="true"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script>';
+echo $gAdsense;
+?>
 
 
           <!-- Pager -->
