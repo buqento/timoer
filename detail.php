@@ -119,6 +119,9 @@ if ($result) {
               <?= $row["konten_pertama"] ?>
 
               <!-- Iklan Google -->
+
+              <?php
+              $gAds = '
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- detail artikel -->
 <ins class="adsbygoogle"
@@ -129,7 +132,9 @@ if ($result) {
      data-full-width-responsive="true"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script>';
+echo $gAds;
+?>
               <!-- End iklan google -->
 
               <?= $row["konten"] ?>
