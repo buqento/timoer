@@ -24,12 +24,6 @@ include("fun.php");
 
     <!-- Custom styles for this template -->
     <link href="css/clean-blog.min.css" rel="stylesheet">
-    <script>
-         (adsbygoogle = window.adsbygoogle || []).push({
-              google_ad_client: "ca-pub-1434074630735871",
-              enable_page_level_ads: true
-         });
-    </script>
   </head>
 
   <body>
@@ -116,6 +110,18 @@ include("fun.php");
               <hr>
 
             <?php } ?>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- detail artikel -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1434074630735871"
+     data-ad-slot="3997474668"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 
           <!-- Pager -->
