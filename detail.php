@@ -119,16 +119,17 @@ if ($result) {
               <?= $row["konten_pertama"] ?>
 
               <!-- Iklan Google -->
-              <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-              <ins class="adsbygoogle"
-                   style="display:block; text-align:center;"
-                   data-ad-layout="in-article"
-                   data-ad-format="fluid"
-                   data-ad-client="ca-pub-1434074630735871"
-                   data-ad-slot="1549289192"></ins>
-              <script>
-                   (adsbygoogle = window.adsbygoogle || []).push({});
-              </script>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- detail artikel -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1434074630735871"
+     data-ad-slot="3997474668"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
               <!-- End iklan google -->
 
               <?= $row["konten"] ?>
